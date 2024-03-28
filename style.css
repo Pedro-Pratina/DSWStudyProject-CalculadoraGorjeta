@@ -134,6 +134,7 @@ main {
     font-size: 0.75rem;
     color: #e17457;
     font-weight: 700;
+    display: none;
 }
 
 .resultados {
@@ -184,7 +185,7 @@ main {
     padding-block: 0.5rem;
 }
 
-@media(min-width: 928px) {}
+@media(min-width: 928px) {
     body {
         display: flex;
         flex-direction: column;
@@ -224,6 +225,7 @@ main {
     .resultados div > strong {
         font-size: 3rem;
     }
+}
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
