@@ -126,7 +126,7 @@ main {
     justify-content: space-between;
 }
 
-.pessoas .erro {
+.pessoas #erro-div {
     outline: 2px solid #e17457;
 }
 
@@ -140,6 +140,7 @@ main {
     background-color: var(--green-8);
     border-radius: 0.9375rem;
     padding: 1.5rem;
+    display: none;
 }
 
 .resultados div div {
