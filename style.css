@@ -145,8 +145,7 @@ main {
 .resultados {
     background-color: var(--green-8);
     border-radius: 0.9375rem;
-    padding: 1.5rem;
-    display: none;
+    padding: 1.5rem;
 }
 
 .resultados div div {
